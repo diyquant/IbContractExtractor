@@ -21,7 +21,7 @@ Installation
 
 	Start via the command line. 
 
-	## Example:
+## Example:
 	c:\unzip path\>IbExtract.exe
 
 	1. Writes out a list of exchanges to:
