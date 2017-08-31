@@ -17,22 +17,34 @@ Installation
 	Installing IbContractExtractor is just a matter of unzipping the download 
 	file to wherever you want to install it.
 	
-Running
-=======
+# Running on Windows
 
 	Start via the command line. 
 
-	Example:
+	## Example:
 	c:\unzip path\>IbExtract.exe
 
 	1. Writes out a list of exchanges to:
-    c:\unzip path\exchanges.txt
+        c:\unzip path\exchanges.txt
 
 	2.  Writes a list of contract id's and details to:
-    c:\unzip path\contracts.txt
+        c:\unzip path\contracts.txt
+    
+# Running on Linux
 
-Building
-========
+       ## Prerequisites
+       
+       Install Mono using your distribution's package manager. The following was tested with Mono 5.0.0.
+
+       ## Compilation
+
+       pushd source && xbuild && popd
+
+       ## Execution
+
+       mono source/bin/Debug/IbExtract.exe
+
+# Building
 
 	The project is built with VisualStudio 2010. 
 	It should compile with command line tools, but I haven't tested that.
@@ -42,6 +54,5 @@ Building
 
 	Just open the .sln file and compile as normal.
 
-Notes
-=====
+# Notes
 	Moved to GitHub from SourceForge in May 2013.
