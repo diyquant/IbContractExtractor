@@ -1,4 +1,4 @@
-IbContractExtractor 
+# IbContractExtractor 
 
 Scrapes contract id's from Interactive Broker's website.  
 
@@ -32,15 +32,15 @@ Installation
     
 # Running on Linux
 
-       ## Prerequisites
+   ### Prerequisites
        
        Install Mono using your distribution's package manager. The following was tested with Mono 5.0.0.
 
-       ## Compilation
+  ### Compilation
 
        pushd source && xbuild && popd
 
-       ## Execution
+  ### Execution
 
        mono source/bin/Debug/IbExtract.exe
 
